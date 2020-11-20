@@ -16,13 +16,13 @@ export default function PetList() {
       name: "Joyce",
       type: "Dog",
       age: "10 years old",
-      location: "84 Seacrest Boulevard",
+      location: "Banana Island",
       photo: require("./assets/celine-sayuri-tagami-2s6ORaJY6gI-unsplash.jpg"),
     },
     {
       name: "Emelia",
       type: "Cat",
-      age: "2 years old",
+      age: "5 years old",
       location: "Shell Lake Avenue on 23rd Street",
       photo: require("./assets/erik-jan-leusink-IbPxGLgJiMI-unsplash.jpg"),
     },
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 30,
     paddingTop: 45,
     paddingLeft: 30,
-    backgroundColor: "#e6ebe6",
+    backgroundColor: "#5fde84",
   },
 
   searchArea: {

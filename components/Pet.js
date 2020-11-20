@@ -29,36 +29,28 @@ const styles = StyleSheet.create({
   profile: {
     flexDirection: "row",
     alignItems: "center",
-    marginBottom: 30,
+    marginBottom: 10,
     height: 200,
     elevation: 8,
   },
 
-  //   profileShadow: {
-  //     shadowColor: '#000',
-  //     shadowOffset: { width: 0, height: 4 },
-  //     shadowOpacity: 0.3,
-  //     shadowRadius: 4.65,
-  //     elevation: 8
-  //  },
-
   image: {
-    height: 200,
-    width: 150,
+    height: 180,
+    width: 130,
     borderRadius: 20,
   },
 
   petName: {
     color: "#4e15ab",
-    fontSize: 29,
+    fontSize: 25,
     fontWeight: "bold",
   },
 
   profileDetails: {
     justifyContent: "center",
     backgroundColor: "white",
-    height: 150,
-    width: 180,
+    height: 140,
+    width: 190,
     paddingBottom: 5,
     paddingLeft: 20,
     borderBottomRightRadius: 20,
@@ -67,14 +59,14 @@ const styles = StyleSheet.create({
 
   details: {
     color: "#adadad",
-    fontSize: 18,
+    fontSize: 14,
   },
 
   location: {
     flexDirection: "row",
-    paddingTop: 5,
+    paddingTop: 4,
     color: "#adadad",
-    fontSize: 18,
+    fontSize: 14,
     width: 120,
     margin:0,
     padding:0,
@@ -82,6 +74,6 @@ const styles = StyleSheet.create({
 
   locationText: {
     color: "#adadad",
-    fontSize: 18,
+    fontSize: 14,
   },
 });
