@@ -20,13 +20,6 @@ export default function PetList() {
       photo: require("./assets/celine-sayuri-tagami-2s6ORaJY6gI-unsplash.jpg"),
     },
     {
-      name: "Emelia",
-      type: "Cat",
-      age: "5 years old",
-      location: "Shell Lake Avenue on 23rd Street",
-      photo: require("./assets/erik-jan-leusink-IbPxGLgJiMI-unsplash.jpg"),
-    },
-    {
       name: "Nana",
       type: "Bird",
       age: "3 years old",
